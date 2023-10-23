@@ -42,8 +42,66 @@ header {
   cursor: pointer;
   transition: all 0.3s ease; /* Aggiunge un effetto di transizione al pulsante */
 }
+.custom-button-apple {
+  background-color: #0113b1;
+  color: #ffffff;
+  border: 2px solid #0113b1;
+  border-radius: 20px; /* Imposta il raggio di bordo arrotondato */
+  padding: 10px 50px;
+  font-size: 16px;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Aggiunge un effetto di transizione al pulsante */
+}
 .menu-phone {
   display: none;
+}
+.col-7 {
+  width: 60%;
+}
+.col-5 {
+  width: 40%;
+}
+.col-6 {
+  width: 50%;
+}
+.row {
+  display: flex;
+}
+.box {
+  background-color: #0099ff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+}
+.title-box {
+  color: #0113b1;
+}
+.title-center {
+  text-align: center;
+}
+.description-box {
+  margin: 30px;
+  color: rgb(31, 31, 31);
+}
+.description-center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 100px;
+  margin-top: 20px;
+  color: #0113b1;
+  text-align: center;
+}
+.img-phone {
+  max-width: 300px;
+  max-height: 300px;
+  padding-top: 20px;
+  margin-bottom: -20px;
 }
 
 /* RESPONSIVE */
