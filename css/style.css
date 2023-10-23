@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0099ff;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  align-self: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.custom-button {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #ffffff;
+  border-radius: 20px; /* Imposta il raggio di bordo arrotondato */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Aggiunge un effetto di transizione al pulsante */
+}
+.menu-phone {
+  display: none;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .menu-phone {
+    display: contents;
+  }
+  .menu ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+}
