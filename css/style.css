@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -10,8 +9,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: -10px;
 }
-
+.main {
+  padding-left: 250px;
+  padding-right: 250px;
+}
 .logo img {
   height: 50px;
   align-self: center;
@@ -71,6 +74,9 @@ header {
 .col-4 {
   width: 30%;
 }
+.col-3 {
+  width: 20%;
+}
 .col-8 {
   width: 70%;
 }
@@ -84,7 +90,7 @@ header {
   margin: 20px;
   margin-top: 50px;
   width: auto;
-  height: 300px;
+  height: 350px;
 }
 .title-box {
   color: #0113b1;
@@ -114,7 +120,6 @@ header {
 }
 .back-violet {
   background-color: #9891e1;
-  padding: 50px;
 }
 .strategic-img {
   padding: 50px;
@@ -124,18 +129,21 @@ header {
 .strategic-title {
   color: #ffffff;
   padding-left: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .strategic-description {
   color: #ffffff;
   padding-left: 50px;
-  padding-right: 250px;
+  padding-right: 150px;
+  padding-bottom: 50px;
 }
 .box-white {
   margin-top: 200px;
   background-color: white;
   border-radius: 20px;
-  margin-right: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
+
   text-align: center;
   padding: 20px;
 }
@@ -177,15 +185,14 @@ header {
 
 .center {
   margin: auto;
-  width: 60%;
+  text-align: center;
 }
 .testimonial {
   background-color: #9891e1;
   display: inline-block;
-  width: 920px;
+  width: 1300px;
   height: 200px;
   line-height: 40px;
-  margin-right: 10px;
   border-radius: 40px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -197,17 +204,19 @@ header {
   border-radius: 100px;
   object-fit: cover;
   margin-top: 30px;
-  margin-left: 20px;
+  text-align: left;
 }
 .description-testimonial {
   padding: 30px 0px 0px 20px;
   color: white;
+  text-align: left;
 }
 
 .name-testimonial {
   padding: 0px 0px 0px 20px;
   margin: 0px;
   color: white !important;
+  text-align: left;
 }
 
 .benefits-title {
@@ -246,6 +255,83 @@ header {
 }
 .box-benefits {
   padding-left: 50px;
+}
+
+.title-about {
+  color: #9891e1;
+  font-size: 30px;
+}
+.description-about {
+  padding-right: 300px;
+  font-size: 20px;
+}
+
+.img-about {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.subtitle-about {
+  color: #9891e1;
+  font-size: 30px;
+  padding: 0px 150px 0px 50px;
+}
+.button-about {
+  margin-left: 50px;
+  background-color: #9891e1;
+  color: #ffffff;
+  border: 2px solid #9891e1;
+  border-radius: 20px; /* Imposta il raggio di bordo arrotondato */
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subtitle-started {
+  color: #d3cfff;
+  text-align: center;
+  padding-top: 20px;
+}
+.title-started {
+  color: #ffffff;
+  font-size: 20px;
+}
+.free-started {
+  color: #fbbe67;
+  font-size: 40px;
+}
+.description-started {
+  color: white;
+}
+.button-started {
+  background-color: #fff;
+  color: #9891e1;
+  border: 2px solid #ffffff;
+  border-radius: 40px; /* Imposta il raggio di bordo arrotondato */
+  padding: 20px 60px;
+  margin-top: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Aggiunge un effetto di transizione al pulsante */
+}
+.footer-copiright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+  color: white !important;
+}
+.back-black {
+  background-color: #363636;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
 }
 
 /* RESPONSIVE */
