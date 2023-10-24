@@ -339,8 +339,43 @@ header {
   .menu-phone {
     display: contents;
   }
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .menu ul {
     display: none;
+  }
+  .box {
+    background-color: #0099ff;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+  }
+  .testimonial {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+  }
+  .img-testimonial {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .description-testimonial {
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  .name-testimonial {
+    padding-left: 50px;
+    padding-bottom: 20px;
+  }
+  .col-md-6 {
+    width: 50%;
   }
 }
 @media screen and (max-width: 480px) {
