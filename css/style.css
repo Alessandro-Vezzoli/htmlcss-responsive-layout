@@ -60,25 +60,25 @@ header {
   display: none;
 }
 .col-7 {
-  width: 60%;
+  width: calc(100% / 12 * 7);
 }
 .col-5 {
-  width: 40%;
+  width: calc(100% / 12 * 5);
 }
 .col-6 {
-  width: 50%;
+  width: calc(100% / 12 * 6);
 }
 .col-12 {
   width: 100%;
 }
 .col-4 {
-  width: 30%;
+  width: calc(100% / 12 * 4);
 }
 .col-3 {
-  width: 20%;
+  width: calc(100% / 12 * 3);
 }
 .col-8 {
-  width: 70%;
+  width: calc(100% / 12 * 8);
 }
 .row {
   display: flex;
@@ -337,11 +337,17 @@ header {
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .menu-phone {
-    display: contents;
+    width: 100%;
   }
   .main {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .row {
+    flex-wrap: wrap;
   }
 
   .menu ul {
