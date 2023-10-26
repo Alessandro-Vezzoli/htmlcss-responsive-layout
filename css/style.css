@@ -82,6 +82,7 @@ header {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 .box {
   background-color: #0099ff;
