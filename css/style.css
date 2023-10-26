@@ -334,6 +334,13 @@ header {
   text-align: center;
 }
 
+.benefits-row {
+  display: flex;
+}
+.benefits-row-2 {
+  display: flex;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .menu-phone {
@@ -445,5 +452,8 @@ header {
   .button-about {
     margin-left: 70px;
     text-align: center;
+  }
+  .benefits-box {
+    width: auto;
   }
 }
